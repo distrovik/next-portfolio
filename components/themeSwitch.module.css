@@ -1,0 +1,21 @@
+.logo {
+    flex:2;
+}
+
+.outerLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 45px;
+  width: 45px;
+  background-color: rgb(17 24 39);
+  border-radius: 50%
+}
+
+.innerLogo {
+  height: 30px;
+  width: 30px;
+  background-color: #F0ECE5;
+  border-radius: 5px;
+  font-size: 0px;
+}

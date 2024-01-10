@@ -1,0 +1,68 @@
+/* Navbar Section */
+.navbar {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.Tlink {
+  font-family: 'Teko', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 4px 4px;
+  border-radius: 5px;
+  color: #33186b;
+}
+
+.Tlink:link {
+  background-color: #F0ECE5;
+  text-decoration: none;
+}
+
+.Tlink:visited {
+  background-color: #F0ECE5;
+  text-decoration: none;
+}
+
+.Tlink:hover {
+  background-color: #FFFFFF80;
+  padding: 4px 4px;
+}
+
+.Tlink:active {
+  background-color: #FFFFFF;
+  padding: 4px 4px;
+} 
+
+
+.Flink {
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 4px 4px;
+    border-radius: 5px;
+    color: #00000080;
+}
+
+.Flink:link {
+    background-color: #F0ECE5;
+    text-decoration: none;
+  }
+  
+.Flink:visited {
+    background-color: #F0ECE5;
+    text-decoration: none;
+  }
+  
+.Flink:hover {
+    background-color: #ffffff80;
+    padding: 4px 4px;
+  }
+  
+.Flink:active {
+    background-color: #FFFFFF;
+    padding: 4px 4px;
+  } 
+
