@@ -1,17 +1,16 @@
-import Head from "next/head";
-import Layout from "@/components/layout";
+import Header from "@/components/header";
+import { usePathname } from "next/navigation";
 
-export default function Blog () {
-    return (
-        <Layout>
-            <Head>
-                <title>Reach</title>
-            </Head>
-            <main>
-                <div style={{height: "100vh"}}>
-                <h1>Reach</h1>
-                </div>
-            </main>
-        </Layout>
-    )
+export default function Reach() {
+  const siteTitle =
+    usePathname().slice(1).charAt(0).toUpperCase() + usePathname().slice(2);
+
+  return (
+    <>
+      <Header title={siteTitle} />
+      <div id="innerMain">
+        <h1>Reach</h1>
+      </div>
+    </>
+  );
 }

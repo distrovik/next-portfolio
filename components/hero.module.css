@@ -1,0 +1,59 @@
+/* Hero Section */
+.hero {
+    margin: 300px 0;
+    padding: 50px 0;
+    display: flex;
+    align-items:center;
+}
+
+.heroDesc {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    min-width: 350px;
+}
+
+.p {
+    padding-top: 10px;
+}
+
+.heroPic{
+    border: 5px solid #33186B;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+
+.heroLink {
+    margin: 15px 0;
+}
+
+.heroLink a {
+    color: white;
+    margin: 0 3px;
+}
+
+.heroLink a :hover {
+    color: #7FC7D9;
+}
+
+.heroLink a ::after {
+    color: white;
+}
+
+.hey {
+    color: #00000070;
+}
+
+/* Hero Section */
+@media (max-width: 660px) {
+    .hero {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+    }
+    .heroPic{
+        margin:0 0 50px 0;
+        height: 150px;
+        width: 150px;
+    }
+}
