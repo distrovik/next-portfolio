@@ -10,13 +10,13 @@ html {
 
 body {
   background-color: #F0ECE5;
-  color: #000000;
+  color: #000000aa;
   width: 100%;
 }
 
 .dark body {
   background-color: rgb(17 24 39);
-  color: #ffffff;
+  color: #ffffffdd;
 }
 
 h1 {
@@ -30,6 +30,13 @@ h1 {
 
 .dark h1 {
   color: #7fc7d9;
+}
+
+@media (max-width: 660px) {
+  h1 {
+    font-size: 2.5rem;
+    letter-spacing: -0.15rem;
+  }
 }
 
 h2 {
@@ -83,17 +90,12 @@ p {
   background-color: rgb(17 24 39);
 }
 
-.dark #active:visited {
-  background-color: rgb(17 24 39);
-}
 
 .dark #active:hover {
   background-color: #33186B;
 }
 
-.dark #active:active {
-  background-color: #33186B;
-}
+
 
 
 .dark #notActive {
@@ -104,15 +106,8 @@ p {
   background-color: rgb(17 24 39);
 }
 
-.dark #notActive:visited {
-  background-color: rgb(17 24 39);
-}
 
 .dark #notActive:hover {
-  background-color: #33186B;
-}
-
-.dark #notActive:active {
   background-color: #33186B;
 }
 
@@ -152,22 +147,59 @@ p {
 /* link icon  */
 
 /* Hey dark */
- .dark #hey {
-  color: #ffffffe0;
+.dark #hey {
+  color: #ffffffdd;
 }
+
 /* Hey dark */
 
 #innerMain {
-    display: flex;
-    flex-direction: column;
-    width:100%;
-    height: 100vh;
-  }
-  
-  @media (max-width: 660px) {
-    #innerMain {
-      margin-top: -300px;
-      align-items: center;
-      justify-content: center;
-    }
-  } 
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+
+/* dark p */
+.dark #topP {
+  color: #ffffff90;
+}
+
+/* dark p */
+
+/* dark link */
+.dark #activeLink {
+  color: #7FC7D9;
+}
+
+.dark #activeLink:link {
+  background-color: rgb(17 24 39);
+}
+
+.dark #notActiveLink {
+  color: #ffffff80;
+}
+
+.dark #notActiveLink:link {
+  background-color: rgb(17 24 39);
+}
+
+
+#darkLink {
+  color: #00000080;
+}
+
+.dark #darkLink {
+  color: #7fbcd9;
+}
+
+.dark #darkLink:hover {
+  color: #ffffffcc;
+  padding: 0;
+  background-color: rgb(17 24 39);
+}
+
+
+
+/* dark link */

@@ -27,20 +27,11 @@
   text-decoration: none;
 }
 
-.Tlink:visited {
-  background-color: #F0ECE5;
-  text-decoration: none;
-}
-
 .Tlink:hover {
   background-color: #FFFFFF80;
   padding: 4px 8px;
 }
 
-.Tlink:active {
-  background-color: #FFFFFF;
-  padding: 4px 8px;
-} 
 
 
 .Flink {
@@ -58,18 +49,11 @@
     text-decoration: none;
   }
   
-.Flink:visited {
-    background-color: #F0ECE5;
-    text-decoration: none;
-  }
   
 .Flink:hover {
     background-color: #ffffff80;
     padding: 4px 8px;
   }
   
-.Flink:active {
-    background-color: #FFFFFF;
-    padding: 4px 8px;
-  } 
+
 

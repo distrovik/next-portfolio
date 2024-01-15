@@ -9,7 +9,11 @@ export default function Projects() {
     <>
       <Header title={siteTitle} />
       <div id="innerMain">
-        <h1>Projects</h1>
+        <div>
+          <div className="topDiv">
+            <h1>{siteTitle}</h1>
+          </div>
+        </div>
       </div>
     </>
   );

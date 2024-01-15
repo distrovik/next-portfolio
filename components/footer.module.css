@@ -1,0 +1,43 @@
+.innerMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.mainDiv {
+    display: flex;
+    gap: 500px;
+}
+
+.link {
+    color: #ffffff80;
+}
+
+@media (max-width: 660px) {
+    .mainDiv {
+        gap: 200px;
+    }
+}
+
+.Tlink {
+    border-radius: 4px;
+    color: #33186b;
+}
+
+.Tlink:link {
+    background-color: #F0ECE5;
+    text-decoration: none;
+}
+
+
+
+.Flink {
+    border-radius: 4px;
+    color: #00000080;
+}
+
+.Flink:link {
+    background-color: #F0ECE5;
+    text-decoration: none;
+}
