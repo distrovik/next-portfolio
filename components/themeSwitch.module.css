@@ -15,3 +15,15 @@
   border-radius: 5px;
   font-size: 0px;
 }
+
+@media (max-width: 660px) {
+  .outerLogo {
+    height: 35px;
+    width: 35px;
+  }
+
+  .innerLogo {
+    height: 20px;
+    width: 20px;
+  }
+}

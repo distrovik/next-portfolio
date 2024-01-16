@@ -5,12 +5,9 @@
     display: flex; 
     width: 100%;
     max-width: 56rem;
-    min-width: 360px;
     position: relative;
     padding: 2rem 0 2rem 0;
 }
-
-
 
 .Tlink {
   font-family: 'Teko', sans-serif;
@@ -56,4 +53,11 @@
   }
   
 
-
+  @media (max-width : 660px) {
+    .Tlink {
+      font-size: 15px;
+    }
+    .Flink {
+      font-size: 15px;
+    }
+  }

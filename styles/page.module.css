@@ -1,10 +1,10 @@
 .topDiv>h1{
   padding: 20px 0 20px 0;
-  min-width: 400px
+  
 }
 
 .secondDiv {
-  min-width: 400px
+  min-width: 300px
 }
 
 .secondDiv>h2{
@@ -12,7 +12,7 @@
 }
 
 .secondDiv>p{
-  padding-top: 5px;
+  padding-top: 8px;
 }
 
 .secondDiv>ul{

@@ -4,6 +4,7 @@
     padding: 50px 0;
     display: flex;
     align-items:center;
+    gap: 100px;
 }
 
 .heroDesc {
@@ -20,9 +21,6 @@
 .profilePic {
     border: 5px solid #33186B;
     border-radius: 50%;
-    width: 250px;
-    height: 250px;
-    margin-left: 100px;
 }
 
 .heroLink {
@@ -53,16 +51,10 @@
         align-items: center;
         text-align: center;
         margin-top: 0px;
+        gap: 20px;
     }
     .profilePic{
-        margin:0 0 20px 0;
         height: 150px;
         width: 150px;
-    }
-}
-
-@media (max-width: 800px) {
-    .profilePic {
-        margin-left: 50px;
     }
 }

@@ -77,6 +77,20 @@ p {
   height: 40px;
 }
 
+@media (max-width: 660px) {
+  .dark #outerLogo {
+    
+    width: 35px;
+    height: 35px;
+    
+  }
+  
+  .dark #innerLogo {
+    width: 30px;
+    height: 30px;
+  }
+}
+
 /* switch dark */
 /* Theme Switch */
 

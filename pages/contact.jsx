@@ -75,18 +75,6 @@ export default function Contact() {
                   id="darkLink"
                   className={styles.link}
                   target="_blank"
-                  href="https://www.linkedin.com/in/irfan-fairuz-442960247"
-                  aria-label="LinkedIn profile link"
-                  rel="noreferrer noopener"
-                >
-                  LinkedIn
-                </a>
-              </li>
-              <li>
-                <a
-                  id="darkLink"
-                  className={styles.link}
-                  target="_blank"
                   href="https://www.facebook.com/nixnicksnix"
                   aria-label="Instagram link"
                   rel="noreferrer noopener"
@@ -94,7 +82,18 @@ export default function Contact() {
                   Facebook
                 </a>
               </li>
-
+              <li>
+                <a
+                  id="darkLink"
+                  className={styles.link}
+                  target="_blank"
+                  href="https://www.linkedin.com/in/irfan-fairuz-442960247"
+                  aria-label="LinkedIn profile link"
+                  rel="noreferrer noopener"
+                >
+                  LinkedIn
+                </a>
+              </li>
               <li>
                 <a
                   id="darkLink"

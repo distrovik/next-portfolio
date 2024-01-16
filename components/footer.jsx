@@ -22,7 +22,9 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                id={currentRoute === "/projects" ? "activeLink" : "notActiveLink"}
+                id={
+                  currentRoute === "/projects" ? "activeLink" : "notActiveLink"
+                }
                 className={
                   currentRoute === "/projects" ? styles.Tlink : styles.Flink
                 }
@@ -33,7 +35,9 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                id={currentRoute === "/journal" ? "activeLink" : "notActiveLink"}
+                id={
+                  currentRoute === "/journal" ? "activeLink" : "notActiveLink"
+                }
                 className={
                   currentRoute === "/journal" ? styles.Tlink : styles.Flink
                 }
@@ -44,7 +48,9 @@ export default function Footer() {
             </li>
             <li>
               <Link
-                id={currentRoute === "/contact" ? "activeLink" : "notActiveLink"}
+                id={
+                  currentRoute === "/contact" ? "activeLink" : "notActiveLink"
+                }
                 className={
                   currentRoute === "/contact" ? styles.Tlink : styles.Flink
                 }
@@ -64,8 +70,11 @@ export default function Footer() {
                 Résumé
               </Link>
             </li>
-            <li><Link
-                id={currentRoute === "/sitemap" ? "activeLink" : "notActiveLink"}
+            <li>
+              <Link
+                id={
+                  currentRoute === "/sitemap" ? "activeLink" : "notActiveLink"
+                }
                 className={
                   currentRoute === "/sitemap" ? styles.Tlink : styles.Flink
                 }
@@ -73,7 +82,7 @@ export default function Footer() {
               >
                 Sitemap
               </Link>
-              </li>
+            </li>
           </ul>
         </div>
         <div>
@@ -83,22 +92,22 @@ export default function Footer() {
               <a
                 id="darkLink"
                 target="_blank"
-                href="https://www.linkedin.com/in/irfan-fairuz-442960247"
-                aria-label="LinkedIn profile link"
+                href="https://www.facebook.com/nixnicksnix"
+                aria-label="Instagram link"
                 rel="noreferrer noopener"
               >
-                LinkedIn
+                Facebook
               </a>
             </li>
             <li>
               <a
                 id="darkLink"
                 target="_blank"
-                href="https://www.facebook.com/nixnicksnix"
-                aria-label="Instagram link"
+                href="https://www.linkedin.com/in/irfan-fairuz-442960247"
+                aria-label="LinkedIn profile link"
                 rel="noreferrer noopener"
               >
-                Facebook
+                LinkedIn
               </a>
             </li>
             <li>
@@ -126,14 +135,15 @@ export default function Footer() {
           </ul>
         </div>
       </div>
+      <div className={styles.copyright}>
       <p>
         <i class="fa-solid fa-copyright"></i> Fanvik {new Date().getFullYear()}
       </p>
+      </div>
       <Script
         src={"https://kit.fontawesome.com/04da4f41a5.js"}
         crossorigin={"anonymous"}
       ></Script>
-      
     </div>
   );
 }
