@@ -22,12 +22,12 @@ export default function Contact() {
               <a
                 id="darkLink"
                 className={styles.link}
-                aria-label="fanvik.dev@gmail.com"
-                href="mailto:fanvik.dev@gmail.com"
+                aria-label="vik@distrovik.com"
+                href="mailto:vik@distrovik.com"
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                fanvik.dev@gmail.com
+                vik@distrovik.com
               </a>
               .
             </p>
@@ -58,7 +58,7 @@ export default function Contact() {
                   aria-label="fiverr profile link"
                   rel="noreferrer noopener"
                 >
-                  Fiver
+                  Fiverr
                 </a>
               </li>
             </ul>
@@ -76,7 +76,7 @@ export default function Contact() {
                   className={styles.link}
                   target="_blank"
                   href="https://www.facebook.com/nixnicksnix"
-                  aria-label="Instagram link"
+                  aria-label="Facebook link"
                   rel="noreferrer noopener"
                 >
                   Facebook
@@ -88,7 +88,7 @@ export default function Contact() {
                   className={styles.link}
                   target="_blank"
                   href="https://www.linkedin.com/in/irfan-fairuz-442960247"
-                  aria-label="LinkedIn profile link"
+                  aria-label="LinkedIn link"
                   rel="noreferrer noopener"
                 >
                   LinkedIn
@@ -100,7 +100,7 @@ export default function Contact() {
                   className={styles.link}
                   target="_blank"
                   href="https://discord.gg/eWbuu6PC"
-                  aria-label="Twitter link"
+                  aria-label="Discord server link"
                   rel="noreferrer noopener"
                 >
                   Discord
@@ -111,7 +111,7 @@ export default function Contact() {
                   id="darkLink"
                   className={styles.link}
                   target="_blank"
-                  href="https://github.com/fanvik"
+                  href="https://github.com/distrovik"
                   aria-label="Github link"
                   rel="noreferrer noopener"
                 >

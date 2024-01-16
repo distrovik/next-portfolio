@@ -162,7 +162,11 @@ p {
 
 /* Hey dark */
 .dark #hey {
-  color: #ffffffdd;
+  color: #7FC7D9;
+}
+
+.dark #name{
+  color: #ffffff;
 }
 
 /* Hey dark */

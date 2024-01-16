@@ -41,7 +41,12 @@
 }
 
 .hey {
-    color: #00000070;
+    color: #000000cc;
+    margin-bottom: -10px;
+}
+
+.name {
+    color: #33186B;
 }
 
 /* Hero Section */
