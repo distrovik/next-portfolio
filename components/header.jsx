@@ -19,7 +19,7 @@ export default function Header(prop) {
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
-        <link rel="icon" href="/public/favicon.ico" />
+        <link rel="icon" href="/favicon.ico" />
         <title>{prop.title}</title>
       </Head>
     )
