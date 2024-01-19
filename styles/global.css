@@ -20,9 +20,9 @@ body {
 }
 
 h1 {
-  font-family: 'Teko', sans-serif;
-  font-size: 3.5rem;
-  font-weight: bold;
+  font-family: var(--font-montserrat);
+  font-size: 3rem;
+  font-weight: 400;
   letter-spacing: -0.20rem;
   margin: 0;
   color: #33186B;
@@ -40,9 +40,8 @@ h1 {
 }
 
 h2 {
-  font-family: 'Teko', sans-serif;
+  font-family: var(--font-montserrat);
   font-size: 1.5rem;
-  font-weight: bold;
   letter-spacing: -0.05rem;
   margin: 0;
   color: #33186B;
@@ -53,7 +52,8 @@ h2 {
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: var(--font-montserrat);
+  font-weight: 500;
   margin: 0;
 }
 
@@ -79,12 +79,12 @@ p {
 
 @media (max-width: 660px) {
   .dark #outerLogo {
-    
+
     width: 35px;
     height: 35px;
-    
+
   }
-  
+
   .dark #innerLogo {
     width: 30px;
     height: 30px;
@@ -165,7 +165,7 @@ p {
   color: #7FC7D9;
 }
 
-.dark #name{
+.dark #name {
   color: #ffffff;
 }
 
@@ -178,6 +178,9 @@ p {
   height: 100vh;
 }
 
+#topP {
+  color: #000000;
+}
 
 /* dark p */
 .dark #topP {
@@ -221,3 +224,10 @@ p {
 
 
 /* dark link */
+
+/* dark resume */
+.dark #resume {
+  background-color: #00000050;
+}
+
+/* dark resume */

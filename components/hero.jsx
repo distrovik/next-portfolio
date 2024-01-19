@@ -6,12 +6,24 @@ export default function Hero() {
   return (
     <div className={styles.hero}>
       <div className={styles.heroDesc}>
-        <h2 id="hey" className={styles.hey}>HEY THERE,</h2>
+        <h2 id="hey" className={styles.hey}>
+          HEY THERE,
+        </h2>
         <h1>
-          <span id="name" className={styles.name}style={{ display: "inline-block" }}>I&apos;m Viky.</span>
+          <span
+            id="name"
+            className={styles.name}
+            style={{ display: "inline-block" }}
+          >
+            I&apos;m Viky.
+          </span>
         </h1>
-        <p>I&apos;m a Freelance Full-Stack Web Developer.</p>
+        <p>I&apos;m a Full-Stack Web Developer.</p>
         <p>Based in Malaysia.</p>
+        <p className={styles.p}>
+          I build beautiful and elegent Web & WebApp with modern and efficient
+          frameworks.
+        </p>
         <p className={styles.p}>
           <span className="font-bold">NextJS</span> is my main frontend
           framework along with <span className="font-bold">TailwindCSS</span> &{" "}
@@ -22,6 +34,7 @@ export default function Hero() {
           <span className="font-bold">ExpressJS</span> framework is my go-to
           backend stack since it&apos;s Javascript.
         </p>
+
         <div className={styles.heroLink}>
           <a
             href="https://github.com/fanvik"

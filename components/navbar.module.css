@@ -1,17 +1,15 @@
 /* Navbar Section */
 .navbar {
-    justify-content: space-between;
-    align-items: center;
-    display: flex; 
-    width: 100%;
-    max-width: 56rem;
-    position: relative;
-    padding: 2rem 0 2rem 0;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  max-width: 56rem;
+  position: relative;
+  padding: 2rem 0 2rem 0;
 }
 
 .Tlink {
-  font-family: 'Teko', sans-serif;
-  font-weight: 500;
   font-size: 20px;
   margin: 10px 0;
   padding: 4px 8px;
@@ -32,32 +30,31 @@
 
 
 .Flink {
-    font-family: 'Teko', sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    margin: 10px 0;
-    padding: 4px 8px;
-    border-radius: 8px;
-    color: #00000080;
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 4px 8px;
+  border-radius: 8px;
+  color: #00000080;
 }
 
 .Flink:link {
-    background-color: #F0ECE5;
-    text-decoration: none;
-  }
-  
-  
-.Flink:hover {
-    background-color: #ffffff80;
-    padding: 4px 8px;
-  }
-  
+  background-color: #F0ECE5;
+  text-decoration: none;
+}
 
-  @media (max-width : 660px) {
-    .Tlink {
-      font-size: 15px;
-    }
-    .Flink {
-      font-size: 15px;
-    }
+
+.Flink:hover {
+  background-color: #ffffff80;
+  padding: 4px 8px;
+}
+
+
+@media (max-width : 660px) {
+  .Tlink {
+    font-size: 15px;
   }
+
+  .Flink {
+    font-size: 15px;
+  }
+}

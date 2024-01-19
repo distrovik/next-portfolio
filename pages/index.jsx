@@ -4,9 +4,9 @@ import Hero from "@/components/hero";
 export default function Home() {
   return (
     <>
-      <Header title="Home" />
+      <Header title="DistroVik" />
       <div id="innerMain">
-      <Hero />
+        <Hero />
       </div>
     </>
   );

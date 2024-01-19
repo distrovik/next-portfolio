@@ -1,18 +1,13 @@
-import Header from "@/components/header";
-import { usePathname } from "next/navigation";
+import SiteTitle from "@/components/siteTitle";
+import styles from "@/styles/page.module.css";
 
 export default function Projects() {
-  const siteTitle =
-    usePathname().slice(1).charAt(0).toUpperCase() + usePathname().slice(2);
-
   return (
     <>
-      <Header title={siteTitle} />
       <div id="innerMain">
-        <div>
-          <div className="topDiv">
-            <h1>{siteTitle}</h1>
-          </div>
+        <div className={styles.topDiv}>
+          <h1>{SiteTitle()}</h1>
+          <h2 id="topP">Here are my recent projects from github.</h2>
         </div>
       </div>
     </>

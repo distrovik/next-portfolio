@@ -136,9 +136,10 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.copyright}>
-      <p>
-        <i class="fa-solid fa-copyright"></i> Fanvik {new Date().getFullYear()}
-      </p>
+        <p>
+          <i class="fa-solid fa-copyright"></i> Fanvik{" "}
+          {new Date().getFullYear()}
+        </p>
       </div>
       <Script
         src={"https://kit.fontawesome.com/04da4f41a5.js"}
