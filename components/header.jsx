@@ -3,13 +3,14 @@ import { usePathname } from "next/navigation";
 
 export const Title = "Fanvik Portfolio";
 
-export default function Header(prop) {
+export default function Header() {
+  const currentPath = usePathname();
   const siteTitle =
     usePathname().slice(1).charAt(0).toUpperCase() + usePathname().slice(2);
   return (
     <Head>
       <meta charSet="utf-8" />
-      <meta property="og:locale" content="en-US"/>
+      <meta property="og:locale" content="en-US" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="description" content="Fanvik's Portfolio build with NextJS" />
       <meta name="author" content="Fanvik" />
@@ -32,8 +33,7 @@ export default function Header(prop) {
       <link rel="canonical" href="https://distrovik.com" />
 
       <title>
-        {prop.title}
-        {siteTitle} | DistroVik
+        {currentPath === "/" ? "DistroVik" : `${siteTitle} | DistroVik`}
       </title>
     </Head>
   );

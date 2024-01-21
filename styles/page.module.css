@@ -88,6 +88,10 @@
   font-weight: 500;
 }
 
+.innerResume {
+  max-width: 700px ;
+}
+
 .aboutMe {
   display: flex;
   max-width: 700px;
@@ -98,8 +102,6 @@
 .info {
   margin-left: 100px;
 }
-
-
 
 .aboutMe>div>ul>li {
   list-style-type: disc;
@@ -123,7 +125,15 @@
   justify-content: center;
 }
 
-.skillSection {
+.summaryDiv {
+  padding: 5px 0 10px 0;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.otherSection {
+  padding: 20px 0 0 0;
   display: flex;
   max-width: 700px;
   align-items: flex-start;
@@ -156,23 +166,49 @@
   align-items: center;
   justify-content: space-around;
   gap: 50px;
+  text-align: center;
 }
 
-.skillBox {
+.skillIcon {
   display: flex;
   width: 100%;
   justify-content: space-around;
   align-items: center;
 }
 
-.skillBox>img {
-  height: 50px;
-  width: 50px;
+.contactDiv {
+  padding: 20px 0 20px 0;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
 }
 
+.contactDiv>ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+}
 
+.downloadDiv {
+  padding: 20px 0 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 @media (max-width: 500px) {
+.topDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
   .resume {
     text-align: center;
   }
@@ -195,7 +231,16 @@
     width: 100px;
   }
 
-  .skillSection {
+  .summaryDiv {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+  .summaryDiv>div>ul>li {
+    list-style-type: none;
+  }
+
+  .otherSection {
     flex-direction: column;
     align-items: center;
   }
@@ -210,7 +255,7 @@
     gap: 15px;
   }
 
-  .skillBox {
+  .skillIcon {
     flex-direction: column;
   }
 
@@ -219,5 +264,10 @@
     flex-direction: column;
     align-items: center;
     gap: 25px;
+  }
+
+  .contactDiv>ul {
+    flex-direction: column;
+    gap: 5px;
   }
 }

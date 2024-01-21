@@ -67,7 +67,7 @@ export default function Footer() {
                 }
                 href={"./resume"}
               >
-                Résumé
+                Resume
               </Link>
             </li>
             <li>

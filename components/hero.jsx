@@ -21,7 +21,7 @@ export default function Hero() {
         <p>I&apos;m a Full-Stack Web Developer.</p>
         <p>Based in Malaysia.</p>
         <p className={styles.p}>
-          I build beautiful and elegent Web & WebApp with modern and efficient
+          I build elegent and responsive Web & WebApp with modern and efficient
           frameworks.
         </p>
         <p className={styles.p}>
