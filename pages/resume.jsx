@@ -88,7 +88,7 @@ export default function Resume() {
                         on technical needs.
                       </li>
                       <li>
-                        Stay plugged into emerging technologies and appling them
+                        Stay plugged into emerging technologies and applying them
                         into projects.
                       </li>
                     </ul>
@@ -398,8 +398,8 @@ export default function Resume() {
         </div>
         <a
           className={styles.downloadDiv}
-          href="/resume.pdf"
-          download="Vik-Resume.pdf"
+          href="/fanvik_resume.pdf"
+          download
         >
           <i id="faIcon" className="fa-solid fa-download"></i>
         </a>
