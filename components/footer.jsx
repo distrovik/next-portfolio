@@ -137,7 +137,7 @@ export default function Footer() {
       </div>
       <div className={styles.copyright}>
         <p>
-          <i class="fa-solid fa-copyright"></i> Fanvik{" "}
+          <i className="fa-solid fa-copyright"></i> Fanvik{" "}
           {new Date().getFullYear()}
         </p>
       </div>

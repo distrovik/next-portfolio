@@ -231,3 +231,9 @@ p {
 }
 
 /* dark resume */
+
+/* .dark project  */
+.dark #projectCard {
+  background-color: #34186b30;
+}
+/* .dark project */

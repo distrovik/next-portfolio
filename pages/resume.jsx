@@ -14,7 +14,7 @@ export default function Resume() {
             <div className={styles.aboutMe}>
               <Image
                 className={styles.pic}
-                src="/images/profile_fanvik.jpg"
+                src="/images/resume_pic.jpg"
                 alt="profile picture"
                 height={150}
                 width={150}
@@ -107,10 +107,10 @@ export default function Resume() {
                         maintained at optimum level consistent with usage
                         requirements.
                       </li>
-                      <li>Weekly stocks arrangement to all branches</li>
+                      <li>Weekly stocks arrangement to all branches.</li>
                       <li>
-                        Manage and maintain company&apos;s E-Commerce sites like
-                        Lazada, Shopee, Woocommerce and Shopify
+                        Manage and maintain company&apos;s E-Commerce sites:
+                        Lazada, Shopee, Woocommerce and Shopify.
                       </li>
                       <li>
                         Manage and update backend database of warehouse daily to
@@ -155,16 +155,16 @@ export default function Resume() {
                   <div>
                     <p id="topP">Udemy</p>
                     <ul style={{ listStyleType: "disc" }}>
-                      <li>Front-End Web Development : HTML, CSS & JS</li>
+                      <li>Front-End Web Development : HTML, CSS & JS.</li>
                       <li>
                         Front-End Frameworks : JQuery, Bootstrap, TailwindCSS &
-                        ReactJS
+                        ReactJS.
                       </li>
-                      <li>Back-End Web Development : NodeJS with ExpressJS</li>
-                      <li>SQL & NOSQL Databases , API and Version Control</li>
+                      <li>Back-End Web Development : NodeJS with ExpressJS.</li>
+                      <li>SQL & NOSQL Databases , API and Version Control.</li>
                       <li>
                         Authentication and Security - Handling Credentials &amp;
-                        Designing Secure Login
+                        Designing Secure Login.
                       </li>
                     </ul>
                   </div>
@@ -179,11 +179,11 @@ export default function Resume() {
                     <ul style={{ listStyleType: "disc" }}>
                       <li>
                         Business systems, Business ethics and Human resource
-                        management
+                        management.
                       </li>
 
                       <li>
-                        Forms of business organisations management processes
+                        Forms of business organisations management processes.
                       </li>
 
                       <li>

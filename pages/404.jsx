@@ -6,7 +6,7 @@ export default function Custom404() {
     <>
       <Header title={"Page not Found"} />
       <div id="innerMain">
-        <div className={styles.centerDiv}>
+        <div className={styles.centerDiv} style={{height:"60vh"}}>
           <h1>404</h1>
           <h2>Nothing Here</h2>
         </div>

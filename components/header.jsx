@@ -1,8 +1,6 @@
 import Head from "next/head";
 import { usePathname } from "next/navigation";
 
-export const Title = "Fanvik Portfolio";
-
 export default function Header() {
   const currentPath = usePathname();
   const siteTitle =
@@ -12,10 +10,10 @@ export default function Header() {
       <meta charSet="utf-8" />
       <meta property="og:locale" content="en-US" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="description" content="Fanvik's Portfolio build with NextJS" />
+      <meta name="description" content="Freelance Software Developer" />
       <meta name="author" content="Fanvik" />
-      <meta property="og:image" content="https://distrovik.com/favicon.ico" />
-      <meta name="og:title" content={Title} />
+      <meta property="og:image" content="https://distrovik.com/images/profile_fanvik.jpg" />
+      <meta name="og:title" content="Fanvik's Portfolio"/>
       <meta property="og:url" content="https://distrovik.com" />
       <meta property="og:site_name" content="DistroVik" />
       <meta property="og:type" content="website" />
@@ -23,7 +21,7 @@ export default function Header() {
       <meta name="twitter:title" content="DistroVik" />
       <meta
         name="twitter:description"
-        content="Fanvik's Portfolio build with NextJS"
+        content="Freelance Software Developer"
       />
       <meta
         name="twitter:image"
