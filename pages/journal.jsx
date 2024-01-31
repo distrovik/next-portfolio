@@ -1,5 +1,6 @@
 import SiteTitle from "@/components/siteTitle";
 import styles from "@/styles/page.module.css";
+import Link from "next/link";
 
 export default function Journal() {
   return (
@@ -13,6 +14,7 @@ export default function Journal() {
           <p id="topP" style={{ visibility: "hidden" }}>
             Hello World! Read my journey as a Web Developer.
           </p>
+          <p>In the meantime, checkout my <Link className="underline" href="/resume">resume</Link></p>
         </div>
         <div className="secondDiv"></div>
       </div>

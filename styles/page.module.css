@@ -278,7 +278,7 @@
 
 .projectCard {
   background-color: #ffffff50;
-  width: 350px;
+  width: 400px;
   height: 250px;
   border-radius: 10px;
   border: solid 2px;
@@ -286,16 +286,40 @@
   background-size: 100px 100px;
   background-position: center;
   transition: margin 0.2s, width .2s, height .2s;
-  opacity: .9;
+  opacity: .8;
 }
 
 .projectCard:hover {
-  /* background-color: #33186B; */
-  /* margin-top: -5px; */
-  width: 360px;
+  width: 410px;
   height: 260px;
   margin: -5px;
   opacity: 1;
+}
+
+@media (max-width: 865px)  {
+  .projectCard {
+    width: 95%;
+    height: 200px;
+    margin: 0 2.5%;
+  }
+  .projectCard:hover {
+    width: 100%;
+    height: 210px;
+    margin: -1.5% -1.5px ;
+  }
+}
+
+@media (max-width: 639px)  {
+  .projectCard {
+    width: 80%;
+    height: 200px;
+    margin: 0 10% 0 10%;
+  }
+  .projectCard:hover {
+    width: 100%;
+    height: 260px;
+    margin: 0;
+  }
 }
 
 .projectSummary {
@@ -313,6 +337,27 @@
   font-weight: 500;
 }
 
-.projectSummary>h3 {
+.projectSummary>a {
   margin-bottom: 10px;
+}
+
+.showMore {
+  font-family: var(--font-teko);
+  font-size: 20px;
+  background-color: #7fbcd9;
+  color: #ffffff;
+  margin: 20px 0;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  border: none 2px;
+  transition: width .2s, height .2s, font-size .2s;
+  opacity: .8;
+}
+
+.showMore:hover {
+  font-size: 24px;
+  width: 100px;
+  height: 35px;
+  opacity: 1;
 }

@@ -76,11 +76,12 @@ export default function Hero() {
       <Image
         id="heroPic"
         className={styles.profilePic}
-        src="/images/profile_fanvik.jpg"
+        src="/images/profile.jpg"
         alt="profile picture"
         width={200}
         height={200}
-      ></Image>
+        priority
+      />
     </div>
   );
 }

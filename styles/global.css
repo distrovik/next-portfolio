@@ -236,4 +236,8 @@ p {
 .dark #projectCard {
   background-color: #34186b30;
 }
+.dark #projectButton {
+  background-color: #33186B;
+  color: #ffffff;
+}
 /* .dark project */

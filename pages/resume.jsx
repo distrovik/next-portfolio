@@ -14,7 +14,7 @@ export default function Resume() {
             <div className={styles.aboutMe}>
               <Image
                 className={styles.pic}
-                src="/images/resume_pic.jpg"
+                src="/images/resume.jpg"
                 alt="profile picture"
                 height={150}
                 width={150}
@@ -69,7 +69,7 @@ export default function Resume() {
                     <p id="topP">2023 - 2024</p>
                   </div>
                   <div>
-                    <p id="topP">Freelance and Open For Works</p>
+                    <p id="topP">Freelance and Open To Work</p>
                     <ul style={{ listStyleType: "disc" }}>
                       <li>
                         Develop and maintain responsive websites for clients,
@@ -349,7 +349,7 @@ export default function Resume() {
                     >
                       <i
                         id="faIcon"
-                        class="fa-solid fa-phone"
+                        className="fa-solid fa-phone"
                         style={{ fontSize: "15px" }}
                       ></i>{" "}
                       +60-1163390588
@@ -367,7 +367,7 @@ export default function Resume() {
                     >
                       <i
                         id="faIcon"
-                        class="fa-solid fa-envelope"
+                        className="fa-solid fa-envelope"
                         style={{ fontSize: "15px" }}
                       ></i>{" "}
                       vik@distrovik.com
@@ -385,7 +385,7 @@ export default function Resume() {
                     >
                       <i
                         id="faIcon"
-                        class="fa-solid fa-globe"
+                        className="fa-solid fa-globe"
                         style={{ fontSize: "15px" }}
                       ></i>{" "}
                       distrovik.com
@@ -398,7 +398,7 @@ export default function Resume() {
         </div>
         <a
           className={styles.downloadDiv}
-          href="/fanvik_resume.pdf"
+          href="/viky_resume.pdf"
           download
         >
           <i id="faIcon" className="fa-solid fa-download"></i>
