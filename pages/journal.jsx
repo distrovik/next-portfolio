@@ -6,7 +6,7 @@ export default function Journal() {
   return (
     <>
       <div id="innerMain">
-        <div className={styles.topDiv}>
+        <div id="goToTop" className={styles.topDiv}>
           <h1>{SiteTitle()}</h1>
           <h2 id="topP">
             Stay tuned for epic dev stories and upcoming projects!

@@ -2,8 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./navbar.module.css";
 import { usePathname } from "next/navigation";
-
-import ThemeSwitcher from "./themeSwitch";
+import ThemeSwitch from "./themeSwitch";
 
 export default function Navbar() {
   const currentRoute = usePathname();
@@ -11,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className={styles.navbar}>
       <div className={styles.icon}>
-        <ThemeSwitcher />
+        <ThemeSwitch />
       </div>
 
       <div className={styles.links}>

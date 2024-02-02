@@ -19,6 +19,10 @@ body {
   color: #ffffffdd;
 }
 
+section {
+  width: 100%;
+}
+
 h1 {
   font-family: var(--font-montserrat);
   font-size: 3rem;
@@ -131,9 +135,14 @@ p {
 /* profile picture */
 .dark #heroPic {
   border: 5px solid #7FC7D9;
-  border-radius: 50%;
+  border-radius: 25%;
 }
 
+@media (max-width: 660px) {
+.dark #heroPic {
+  border-radius: 50%;
+}
+}
 /* profile picture */
 
 /* link icon  */
@@ -236,8 +245,14 @@ p {
 .dark #projectCard {
   background-color: #34186b30;
 }
+
 .dark #projectButton {
   background-color: #33186B;
   color: #ffffff;
 }
+
+.dark #projectButton:hover {
+  box-shadow: 1px 1px 10px 5px #000000;
+}
+
 /* .dark project */

@@ -5,7 +5,7 @@ import styles from "@/styles/page.module.css";
 export default function Resume() {
   return (
     <>
-      <div className={styles.resumePage}>
+      <div id="goToTop" className={styles.resumePage}>
         <div className={styles.topDiv}>
           <h1>{SiteTitle()}</h1>
         </div>
@@ -398,8 +398,8 @@ export default function Resume() {
         </div>
         <a
           className={styles.downloadDiv}
-          href="/viky_resume.pdf"
-          download
+          href="/fanvik_resume.pdf"
+          download="viky's resume.pdf"
         >
           <i id="faIcon" className="fa-solid fa-download"></i>
         </a>

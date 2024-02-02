@@ -276,6 +276,11 @@
 
 /* Projects Page */
 
+.projectTitle {
+  margin: 50px 0 10px 0;
+  width: 100%;
+}
+
 .projectCard {
   background-color: #ffffff50;
   width: 400px;
@@ -285,7 +290,7 @@
   background-repeat: no-repeat;
   background-size: 100px 100px;
   background-position: center;
-  transition: margin 0.2s, width .2s, height .2s;
+  transition: .2s;
   opacity: .8;
 }
 
@@ -309,7 +314,10 @@
   }
 }
 
-@media (max-width: 639px)  {
+@media (max-width: 639px)  { 
+  .projectTitle {
+    text-align: center;
+  }
   .projectCard {
     width: 80%;
     height: 200px;
@@ -325,7 +333,7 @@
 .projectSummary {
   display: flex;
   flex-direction: column;
-  margin: 20px 0 50px 0;
+  margin: 20px 0;
   width: 100%;
   align-items: center;
   text-align: center;
@@ -338,7 +346,7 @@
 }
 
 .projectSummary>a {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .showMore {
@@ -346,18 +354,20 @@
   font-size: 20px;
   background-color: #7fbcd9;
   color: #ffffff;
-  margin: 20px 0;
+  margin: 50px 0;
   width: 80px;
-  height: 30px;
+  height: 28px;
   border-radius: 5px;
   border: none 2px;
-  transition: width .2s, height .2s, font-size .2s;
+  transition: width .2s, height .2s, font-size .2s, margin .2s;
   opacity: .8;
 }
 
 .showMore:hover {
+  margin: 48px 0;
   font-size: 24px;
   width: 100px;
-  height: 35px;
+  height: 32px;
   opacity: 1;
+  box-shadow: 1px 1px 10px 3px #00000050;
 }

@@ -15,7 +15,7 @@ export default function Footer() {
               <Link
                 id={currentRoute === "/" ? "activeLink" : "notActiveLink"}
                 className={currentRoute === "/" ? styles.Tlink : styles.Flink}
-                href={"./"}
+                href={currentRoute==="/"?"#cover":"./"}
               >
                 Home
               </Link>
@@ -28,7 +28,7 @@ export default function Footer() {
                 className={
                   currentRoute === "/projects" ? styles.Tlink : styles.Flink
                 }
-                href={"./projects"}
+                href={currentRoute==="/projects"?"#goToTop":"./projects"}
               >
                 Projects
               </Link>
@@ -41,7 +41,7 @@ export default function Footer() {
                 className={
                   currentRoute === "/journal" ? styles.Tlink : styles.Flink
                 }
-                href={"./journal"}
+                href={currentRoute==="/journal"?"#goToTop":"./journal"}
               >
                 Journal
               </Link>
@@ -54,7 +54,7 @@ export default function Footer() {
                 className={
                   currentRoute === "/contact" ? styles.Tlink : styles.Flink
                 }
-                href={"./contact"}
+                href={currentRoute==="/contact"?"#goToTop":"./contact"}
               >
                 Contact
               </Link>
@@ -65,7 +65,7 @@ export default function Footer() {
                 className={
                   currentRoute === "/resume" ? styles.Tlink : styles.Flink
                 }
-                href={"./resume"}
+                href={currentRoute==="/resume"?"#goToTop":"./resume"}
               >
                 Resume
               </Link>

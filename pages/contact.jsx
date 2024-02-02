@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <>
       <div id="innerMain">
-        <div className={styles.topDiv}>
+        <div id="goToTop" className={styles.topDiv}>
           <h1>{SiteTitle()}</h1>
           <h2 id="topP">A place of infomation to get in touch with me.</h2>
         </div>
