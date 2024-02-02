@@ -1,6 +1,6 @@
 import Header from "@/components/header";
 import Hero from "@/components/hero";
-import ProjectMini from "@/components/projectMini";
+import Projects from "./api/github";
 
 export default function Home() {
   return (
@@ -9,7 +9,7 @@ export default function Home() {
         <Hero />
       </section>
       <section id="projectMini">
-        <ProjectMini />
+        <Projects page="none" />
       </section>
     </>
   );

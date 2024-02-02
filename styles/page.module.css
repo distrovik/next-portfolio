@@ -290,7 +290,6 @@
   background-repeat: no-repeat;
   background-size: 100px 100px;
   background-position: center;
-  transition: .2s;
   opacity: .8;
 }
 
@@ -301,28 +300,31 @@
   opacity: 1;
 }
 
-@media (max-width: 865px)  {
+@media (max-width: 865px) {
   .projectCard {
     width: 95%;
     height: 200px;
     margin: 0 2.5%;
   }
+
   .projectCard:hover {
     width: 100%;
     height: 210px;
-    margin: -1.5% -1.5px ;
+    margin: -1.5% -1.5px;
   }
 }
 
-@media (max-width: 639px)  { 
+@media (max-width: 639px) {
   .projectTitle {
     text-align: center;
   }
+
   .projectCard {
     width: 80%;
     height: 200px;
     margin: 0 10% 0 10%;
   }
+
   .projectCard:hover {
     width: 100%;
     height: 260px;
@@ -359,7 +361,6 @@
   height: 28px;
   border-radius: 5px;
   border: none 2px;
-  transition: width .2s, height .2s, font-size .2s, margin .2s;
   opacity: .8;
 }
 
@@ -370,4 +371,134 @@
   height: 32px;
   opacity: 1;
   box-shadow: 1px 1px 10px 3px #00000050;
+}
+
+/* Project Slideshow */
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 50vh;
+}
+
+.mainDiv>h1 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.mainDiv h3 {
+  font-family: var(--font-teko);
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.slideDiv {
+  margin: 30px 0;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+}
+
+.slideButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 50%;
+  height: 250px;
+}
+
+.slideButton div {
+  padding: 5px 0px 0 10px;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.slideButton div:hover {
+  background: #7fbcd9;
+}
+
+.buttonLink {
+  padding: 5px 0px 0 10px;
+  width: 100%;
+  text-decoration: none;
+  color: #33186B;
+}
+
+.buttonLink:hover {
+  color: #7fbcd9;
+}
+
+.slideDisplay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff50;
+  padding: 20px;
+  width: 50%;
+  height: 250px;
+  border-radius: 10px;
+  border: solid 2px;
+  background-repeat: no-repeat;
+  background-size: 150px 150px;
+  background-position: center;
+  opacity: .8;
+}
+
+.slideDisplay:hover {
+  height: 260px;
+  margin: -5px 0;
+  opacity: 1;
+}
+
+@media (max-width: 865px) {
+  .slideDiv {
+    justify-content: center;
+    gap: 0;
+  }
+
+  .slideButton {
+    margin-top: -20px;
+  }
+
+  .slideDisplay {
+    width: 45%;
+    height: 200px;
+    background-size: 100px 100px;
+  }
+
+  .slideDisplay:hover {
+    height: 210px;
+  }
+}
+
+@media (max-width: 660px) {
+  .mainDiv {
+    align-items: center;
+    text-align: center;
+  }
+
+  .mainDiv>h1 {
+    font-size: 30px;
+  }
+
+  .mainDiv h3 {
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+  .slideDiv {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .slideButton {
+    width: 100%;
+  }
+
+  .slideDisplay {
+    width: 75%;
+  }
 }

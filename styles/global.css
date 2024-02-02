@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  transition: .2s;
+}
 
 html {
   min-width: 360px;
@@ -139,10 +142,11 @@ p {
 }
 
 @media (max-width: 660px) {
-.dark #heroPic {
-  border-radius: 50%;
+  .dark #heroPic {
+    border-radius: 50%;
+  }
 }
-}
+
 /* profile picture */
 
 /* link icon  */
@@ -255,4 +259,15 @@ p {
   box-shadow: 1px 1px 10px 5px #000000;
 }
 
-/* .dark project */
+/* .dark project showcase */
+.dark #darkButtonLink {
+  color: #7fbcd9;
+}
+
+.dark #darkButtonLink:hover {
+  color: #ffffffcc;
+}
+
+.dark #hoverBackground:hover {
+  background-color: #33186B;
+}
