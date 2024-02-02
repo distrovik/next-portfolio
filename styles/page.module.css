@@ -375,10 +375,10 @@
 
 /* Project Slideshow */
 .mainDiv {
+  margin-bottom: 300px;
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 50vh;
 }
 
 .mainDiv>h1 {
@@ -495,7 +495,7 @@
   }
 
   .slideButton {
-    width: 100%;
+    width: 75%;
   }
 
   .slideDisplay {

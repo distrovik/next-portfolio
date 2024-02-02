@@ -16,6 +16,7 @@ export default function Projects(prop) {
   // Project mini Hooks
   const [defaultSlide, setDefaultSlide] = useState();
   const [buttons, setButtons] = useState();
+  const [activeButton, setActiveButton] = useState(true);
 
   useEffect(() => {
     fetch("https://api.github.com/users/distrovik/repos")
@@ -80,9 +81,7 @@ export default function Projects(prop) {
                   rel="noreferrer noopener"
                   className={styles.slideDisplay}
                   style={
-                    sortedData[item].name == "react"
-                      ? { backgroundImage: `url("/images/react.png)` }
-                      : sortedData[item].language === "JavaScript"
+                    sortedData[item].language === "JavaScript"
                       ? { backgroundImage: `url("/images/js.png")` }
                       : sortedData[item].language === "HTML"
                       ? { backgroundImage: `url("/images/html.png")` }
@@ -102,20 +101,23 @@ export default function Projects(prop) {
 
             function button1() {
               setDefaultSlide(slide(10));
+              setActiveButton(true)
             }
 
             function button2() {
               setDefaultSlide(slide(9));
+              setActiveButton(false);
             }
 
             function button3() {
               setDefaultSlide(slide(3));
+              setActiveButton(false);
             }
 
             function button() {
               return (
                 <div className={styles.slideButton}>
-                  <div id="hoverBackground" onClick={button1}>
+                  <div id="hoverBackground" onClick={button1} className={activeButton?"activeButton":"none"}>
                     <h3>{sortedData[10].name}</h3>
                   </div>
 
@@ -158,6 +160,7 @@ export default function Projects(prop) {
 
   return (
     <>
+      {/* Project Page */}
       <div style={{ display: prop.page }}>
         <div id="goToTop" className={styles.topDiv}>
           <h1>{SiteTitle()}</h1>
@@ -194,7 +197,8 @@ export default function Projects(prop) {
           </button>
         </div>
       </div>
-      <div className={styles.mainDiv} style={{ display: prop.mini }}>
+      {/* Project Showcase */}
+      <div id="test" className={styles.mainDiv} style={{ display: prop.mini }}>
         <h1>Here are 3 of my recent projects...</h1>
         <div className={styles.slideDiv}>
           {buttons}

@@ -271,3 +271,11 @@ p {
 .dark #hoverBackground:hover {
   background-color: #33186B;
 }
+
+.activeButton {
+  background-color:#7fbcd9;
+}
+
+.dark .activeButton {
+  background-color:#33186B;
+}
