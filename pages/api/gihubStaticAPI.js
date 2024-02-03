@@ -1,6 +1,4 @@
-export default function githubRepos(req, res) {
-  res.status(200).json({
-    text: [
+[
       {
         id: 596821721,
         node_id: "R_kgDOI5LG2Q",
@@ -1907,6 +1905,4 @@ export default function githubRepos(req, res) {
         watchers: 0,
         default_branch: "master",
       },
-    ],
-  });
-}
+    ]
