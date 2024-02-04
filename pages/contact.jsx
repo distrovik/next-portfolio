@@ -37,7 +37,7 @@ export default function Contact() {
               href="mailto:mrirfanwork@gmail.com"
             >
               mrirfanwork@gmail.com
-            </a>
+            </a>.
           </p>
 
           <p>Or you can browse my catalogue of services on freelance sites :</p>

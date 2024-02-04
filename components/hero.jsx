@@ -21,18 +21,17 @@ export default function Hero() {
         <p>I&apos;m a Full-Stack Web Developer.</p>
         <p>Based in Malaysia.</p>
         <p className={styles.p}>
-          I build elegent and responsive Web & WebApp with modern and efficient
-          frameworks.
+          My passion lies in crafting elegant and responsive Web & WebApp experiences using modern and efficient frameworks.
         </p>
         <p className={styles.p}>
-          <span className="font-bold">NextJS</span> is my main frontend
-          framework along with <span className="font-bold">TailwindCSS</span> &{" "}
-          <span className="font-bold">Bootstrap</span>.
+        On the frontend, I rely on{" "} 
+          <span className="boldText">NextJS</span>, complemented by <span className="boldText">TailwindCSS</span> &{" "}
+          <span className="boldText">Bootstrap</span>.
         </p>
         <p className={styles.p}>
-          <span className="font-bold">NodeJS</span> with{" "}
-          <span className="font-bold">ExpressJS</span> framework is my go-to
-          backend stack since it&apos;s Javascript.
+        For backend development, my go-to stack is{" "} 
+          <span className="boldText">NodeJS</span> with{" "}
+          <span className="boldText">ExpressJS</span> framework, leveraging the power of <span className="JS">JavaScript</span>.
         </p>
 
         <div className={styles.heroLink}>

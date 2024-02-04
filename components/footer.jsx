@@ -70,7 +70,7 @@ export default function Footer() {
                 Resume
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link
                 id={
                   currentRoute === "/sitemap" ? "activeLink" : "notActiveLink"
@@ -82,7 +82,7 @@ export default function Footer() {
               >
                 Sitemap
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div>
@@ -137,7 +137,7 @@ export default function Footer() {
       </div>
       <div className={styles.copyright}>
         <p>
-          <i className="fa-solid fa-copyright"></i> Fanvik{" "}
+          <i className="fa-solid fa-copyright"></i> DistroVik{" "}
           {new Date().getFullYear()}
         </p>
       </div>

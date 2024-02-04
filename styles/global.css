@@ -147,6 +147,19 @@ p {
   }
 }
 
+.boldText {
+  font-weight: bold;
+  color: #33186B;
+}
+
+.dark .boldText {
+  color: #7fbcd9;
+}
+
+.JS {
+  color: #f0db4f;
+}
+
 /* profile picture */
 
 /* link icon  */
@@ -273,9 +286,9 @@ p {
 }
 
 .activeButton {
-  background-color:#7fbcd9;
+  background-color: #7fbcd9;
 }
 
 .dark .activeButton {
-  background-color:#33186B;
+  background-color: #33186B;
 }

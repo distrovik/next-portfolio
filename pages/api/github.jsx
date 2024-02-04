@@ -1,4 +1,3 @@
-import SiteTitle from "@/components/siteTitle";
 import styles from "@/styles/page.module.css";
 import { useEffect, useState } from "react";
 import Image from "next/image";
@@ -139,19 +138,7 @@ export default function Projects(prop) {
   return (
     <>
       {/* Project Page */}
-      <div style={{ display: prop.page }}>
-        <div id="goToTop" className={styles.topDiv}>
-          <h1>{SiteTitle()}</h1>
-          <h2 id="topP">
-            I&apos;ve been programming since 2022. You can find projects that
-            I&apos;ve built here.
-          </h2>
-        </div>
-
-        <div className={styles.projectTitle}>
-          <h2 id="topP">Here are my recent projects from github.</h2>
-        </div>
-        <div className={styles.projectSummary}>
+        <div className={styles.projectSummary} style={{ display: prop.page }}>
           <Image
             src={!loaded ? "/images/github1.png" : avatar}
             alt="Github Avatar"
@@ -198,10 +185,9 @@ export default function Projects(prop) {
             {!expanded ? "Show More" : "Show Less"}
           </button>
         </div>
-      </div>
       {/* Project Showcase */}
       <div id="test" className={styles.mainDiv} style={{ display: prop.mini }}>
-        <h1>Here are 3 of my recent projects...</h1>
+        <h1>My recent projects...</h1>
         <div className={styles.slideDiv}>
           {/* buttons */}
           <div className={styles.slideButton}>
