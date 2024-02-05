@@ -157,6 +157,7 @@ p {
 }
 
 .JS {
+  font-weight: bold;
   color: #f0db4f;
 }
 
@@ -239,12 +240,13 @@ p {
 
 .dark #darkLink {
   color: #7fbcd9;
+  text-decoration: none;
 }
 
 .dark #darkLink:hover {
   color: #ffffffcc;
-  padding: 0;
-  background-color: rgb(17 24 39);
+  padding: 5px;
+  background-color:#000000;
 }
 
 
@@ -292,3 +294,30 @@ p {
 .dark .activeButton {
   background-color: #33186B;
 }
+
+.projectCardInner {
+  background-color: #ffffff70;
+  height: 100%;
+  width: 100%;
+  border-radius: 2%;
+}
+
+.dark .projectCardInner {
+  background-color: #00000070;
+}
+
+.projectCardInner h3{
+  color: #33186B;
+  }
+
+.dark .projectCardInner h3{
+color: #7fbcd9;
+}
+
+.projectCardInner p{
+  color: #000000;
+  }
+
+.dark .projectCardInner p{
+  color: #ffffff;
+  }

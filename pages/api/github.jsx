@@ -64,7 +64,7 @@ export default function Projects(prop) {
                   : { backgroundImage: `url("/images/git.png")` }
               }
             >
-              <div>
+              <div className="projectCardInner">
                 <h3>{sortedData[item].name}</h3>
                 <p>{sortedData[item].description}</p>
               </div>
@@ -96,7 +96,7 @@ export default function Projects(prop) {
             : { backgroundImage: `url("/images/git.png")` }
         }
       >
-        <div>
+        <div className="projectCardInner">
           <h3>{repoData[item].name}</h3>
           <p>{repoData[item].description}</p>
         </div>
@@ -170,7 +170,7 @@ export default function Projects(prop) {
                     : { backgroundImage: `url("/images/git.png")` }
                 }
               >
-                <div>
+                <div className="projectCardInner">
                   <h3>{item.name}</h3>
                   <p>{item.description}</p>
                 </div>

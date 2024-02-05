@@ -14,7 +14,7 @@ export default function Journal() {
           <p id="topP" style={{ visibility: "hidden" }}>
             Hello World! Read my journey as a Web Developer.
           </p>
-          <p>In the meantime, checkout my <Link className="underline" href="/resume">resume</Link>.</p>
+          <p>In the meantime, checkout my <Link id="darkLink" className={styles.link} href="/resume">resume</Link>.</p>
         </div>
         <div className="secondDiv"></div>
       </div>
