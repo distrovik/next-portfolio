@@ -47,7 +47,7 @@ export default function Contact() {
                 id="darkLink"
                 className={styles.link}
                 target="_blank"
-                href="https://fiverr.com"
+                href="http://www.fiverr.com/s/882rDZ"
                 aria-label="fiverr profile link"
                 rel="noreferrer noopener"
               >

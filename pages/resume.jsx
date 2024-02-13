@@ -104,7 +104,7 @@ export default function Resume() {
                     <ul style={{ listStyleType: "disc" }}>
                       <li>
                         Organize and control stocks to ensure inventories are
-                        maintained at optimum level consistent with usage
+                        maintained at optimum level consistent with projected sale
                         requirements.
                       </li>
                       <li>Weekly stocks arrangement to all branches.</li>
@@ -113,7 +113,7 @@ export default function Resume() {
                         Lazada, Shopee, Woocommerce and Shopify.
                       </li>
                       <li>
-                        Manage and update backend database of warehouse daily to
+                        Manage and update warehouse&apos;s backend database on a daily basis to
                         ensure stock availability on E-Commerce sites & retail
                         branches.
                       </li>

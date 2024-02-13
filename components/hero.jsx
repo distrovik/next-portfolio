@@ -36,7 +36,7 @@ export default function Hero() {
 
         <div className={styles.heroLink}>
           <a
-            href="https://github.com/fanvik"
+            href="https://github.com/distrovik"
             target="_blank"
             aria-label="Github link"
             rel="noreferrer noopener"

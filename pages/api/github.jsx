@@ -26,7 +26,7 @@ export default function Projects(prop) {
       const data = await result.json();
 
       if (
-        data.documentation_url ===
+        result ===
         "https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"
       ) {
         console.log("400", data);
