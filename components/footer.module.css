@@ -15,9 +15,10 @@
     font-size: .9rem;
 }
 
-.link {
-    color: #ffffff80;
-}
+  .link:hover {
+    background-color: #ffffff90;
+    border-radius: 5px;
+  }
 
 @media (max-width: 660px) {
     .mainDiv {

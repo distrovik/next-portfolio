@@ -2,6 +2,7 @@ import Script from "next/script";
 import styles from "./footer.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Github,Linkedin,Facebook,Discord } from "./url";
 
 export default function Footer() {
   const currentRoute = usePathname();
@@ -91,10 +92,12 @@ export default function Footer() {
             <li>
               <a
                 id="darkLink"
+                className={styles.link}
                 target="_blank"
-                href="https://www.facebook.com/nixnicksnix"
-                aria-label="Instagram link"
+                href={Facebook()}
+                aria-label="Facebook link"
                 rel="noreferrer noopener"
+                style={{padding:"0"}}
               >
                 Facebook
               </a>
@@ -102,10 +105,12 @@ export default function Footer() {
             <li>
               <a
                 id="darkLink"
+                className={styles.link}
                 target="_blank"
-                href="https://www.linkedin.com/in/irfan-fairuz-442960247"
+                href={Linkedin()}
                 aria-label="LinkedIn profile link"
                 rel="noreferrer noopener"
+                style={{padding:"0"}}
               >
                 LinkedIn
               </a>
@@ -113,10 +118,12 @@ export default function Footer() {
             <li>
               <a
                 id="darkLink"
+                className={styles.link}
                 target="_blank"
-                href="https://discord.gg/eWbuu6PC"
-                aria-label="Twitter link"
+                href={Discord()}
+                aria-label="Discord server invite link"
                 rel="noreferrer noopener"
+                style={{padding:"0"}}
               >
                 Discord
               </a>
@@ -124,10 +131,12 @@ export default function Footer() {
             <li>
               <a
                 id="darkLink"
+                className={styles.link}
                 target="_blank"
-                href="https://github.com/fanvik"
+                href={Github()}
                 aria-label="Github link"
                 rel="noreferrer noopener"
+                style={{padding:"0"}}
               >
                 Github
               </a>

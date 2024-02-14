@@ -226,6 +226,10 @@
     margin: 0;
   }
 
+  .info {
+    margin: 0;
+  }
+
   .pic {
     border-radius: 40%;
     height: 100px;

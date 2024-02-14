@@ -345,7 +345,7 @@ export default function Resume() {
                       target="_blank"
                       aria-label="+60-11-633-90-588"
                       rel="noreferrer noopener"
-                      style={{ textDecoration: "none" }}
+                      style={{ textDecoration: "none" , padding : "0 5px"}}
                     >
                       <i
                         id="faIcon"
@@ -363,7 +363,7 @@ export default function Resume() {
                       target="_blank"
                       aria-label="vik@distrovik.com"
                       rel="noreferrer noopener"
-                      style={{ textDecoration: "none" }}
+                      style={{ textDecoration: "none" , padding : "0 5px"}}
                     >
                       <i
                         id="faIcon"
@@ -381,7 +381,7 @@ export default function Resume() {
                       target="_blank"
                       aria-label="website link"
                       rel="noreferrer noopener"
-                      style={{ textDecoration: "none" }}
+                      style={{ textDecoration: "none" , padding : "0 5px"}}
                     >
                       <i
                         id="faIcon"

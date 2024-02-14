@@ -1,6 +1,7 @@
 import styles from "./hero.module.css";
 import Link from "next/link";
 import Image from "next/image";
+import { Github,Linkedin,Facebook,Discord } from "./url";
 
 export default function Hero() {
   return (
@@ -36,7 +37,7 @@ export default function Hero() {
 
         <div className={styles.heroLink}>
           <a
-            href="https://github.com/distrovik"
+            href={Github()}
             target="_blank"
             aria-label="Github link"
             rel="noreferrer noopener"
@@ -44,7 +45,7 @@ export default function Hero() {
             <i id="faIcon" className="fa-brands fa-github"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/irfan-fairuz-442960247"
+            href={Linkedin()}
             target="_blank"
             aria-label="Linkedin link"
             rel="noreferrer noopener"
@@ -52,7 +53,7 @@ export default function Hero() {
             <i id="faIcon" className="fa-brands fa-linkedin"></i>
           </a>
           <a
-            href="https://www.facebook.com/nixnicksnix"
+            href={Facebook()}
             target="_blank"
             aria-label="Facebook link"
             rel="noreferrer noopener"
@@ -60,9 +61,9 @@ export default function Hero() {
             <i id="faIcon" className="fa-brands fa-facebook"></i>
           </a>
           <a
-            href="https://discord.gg/eWbuu6PC"
+            href={Discord()}
             target="_blank"
-            aria-label="Discord Server link"
+            aria-label="Discord server invite link"
             rel="noreferrer noopener"
           >
             <i id="faIcon" className="fa-brands fa-discord"></i>

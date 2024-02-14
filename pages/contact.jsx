@@ -1,6 +1,7 @@
 import Header from "@/components/header";
 import SiteTitle from "@/components/siteTitle";
 import styles from "@/styles/page.module.css";
+import { Github,Linkedin,Facebook,Discord,Fiverr } from "@/components/url";
 
 export default function Contact() {
   return (
@@ -47,7 +48,7 @@ export default function Contact() {
                 id="darkLink"
                 className={styles.link}
                 target="_blank"
-                href="http://www.fiverr.com/s/882rDZ"
+                href={Fiverr()}
                 aria-label="fiverr profile link"
                 rel="noreferrer noopener"
               >
@@ -68,7 +69,7 @@ export default function Contact() {
                 id="darkLink"
                 className={styles.link}
                 target="_blank"
-                href="https://www.facebook.com/nixnicksnix"
+                href={Facebook()}
                 aria-label="Facebook link"
                 rel="noreferrer noopener"
               >
@@ -80,7 +81,7 @@ export default function Contact() {
                 id="darkLink"
                 className={styles.link}
                 target="_blank"
-                href="https://www.linkedin.com/in/irfan-fairuz-442960247"
+                href={Linkedin()}
                 aria-label="LinkedIn link"
                 rel="noreferrer noopener"
               >
@@ -92,8 +93,8 @@ export default function Contact() {
                 id="darkLink"
                 className={styles.link}
                 target="_blank"
-                href="https://discord.gg/eWbuu6PC"
-                aria-label="Discord server link"
+                href={Discord()}
+                aria-label="Discord server invite link"
                 rel="noreferrer noopener"
               >
                 Discord
@@ -104,7 +105,7 @@ export default function Contact() {
                 id="darkLink"
                 className={styles.link}
                 target="_blank"
-                href="https://github.com/distrovik"
+                href={Github()}
                 aria-label="Github link"
                 rel="noreferrer noopener"
               >
