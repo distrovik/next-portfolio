@@ -16,7 +16,7 @@ export default function Hero() {
             className={styles.name}
             style={{ display: "inline-block" }}
           >
-            I&apos;m Viky.
+            I&apos;m Irfan.
           </span>
         </h1>
         <p>I&apos;m a Full-Stack Web Developer.</p>

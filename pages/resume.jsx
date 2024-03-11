@@ -28,7 +28,7 @@ export default function Resume() {
                 </h1>
                 <ul>
                   <li>
-                    <p id="topP">Freelance Developer</p>
+                    <p id="topP">FullStack Web Developer</p>
                   </li>
 
                   <li>
@@ -65,8 +65,8 @@ export default function Resume() {
                 <h2>Work Experience</h2>
                 <div className={styles.summaryDiv}>
                   <div style={{ maxWidth: "150px", minWidth: "150px" }}>
-                    <p id="topP">Freelance Web Developer</p>
-                    <p id="topP">2023 - 2024</p>
+                    <p id="topP">Full-Stack Developer (Freelance)</p>
+                    <p id="topP">2024 - Present</p>
                   </div>
                   <div>
                     <p id="topP">Freelance and Open To Work</p>
@@ -88,35 +88,35 @@ export default function Resume() {
                         on technical needs.
                       </li>
                       <li>
-                        Stay plugged into emerging technologies and applying them
-                        into projects.
+                        Stay plugged into emerging technologies and applying
+                        them into projects.
                       </li>
                     </ul>
                   </div>
                 </div>
                 <div className={styles.summaryDiv}>
                   <div style={{ maxWidth: "150px", minWidth: "150px" }}>
-                    <p id="topP">Executive Warehouse Management</p>
-                    <p id="topP">2020 - 2023</p>
+                    <p id="topP">Web Developer (Front-End)</p>
+                    <p id="topP">2021 - 2023</p>
                   </div>
                   <div>
                     <p id="topP">Ozwin Retailing Sdn Bhd</p>
                     <ul style={{ listStyleType: "disc" }}>
-                      <li>
-                        Organize and control stocks to ensure inventories are
-                        maintained at optimum level consistent with projected sale
-                        requirements.
+                    <li>
+                      Write clean, maintainable code using HTML, CSS, and JavaScript, utilizing frameworks such as React and Bootstrap.
                       </li>
-                      <li>Weekly stocks arrangement to all branches.</li>
+
                       <li>
-                        Manage and maintain company&apos;s E-Commerce sites:
-                        Lazada, Shopee, Woocommerce and Shopify.
+                        Developed e-commerce websites features using React, resulting in a significant increase in user engagement.
                       </li>
+                      <li>Collaborated with UX designers to create intuitive interfaces ensuring the websites is easy to navigate, visually appealing, and responsive.</li>
                       <li>
-                        Manage and update warehouse&apos;s backend database on a daily basis to
-                        ensure stock availability on E-Commerce sites & retail
-                        branches.
+                      Optimize websites performance by minimizing load times and improving responsiveness. Monitor and address any performance bottlenecks.
                       </li>
+                      
+                      <li>
+                      Work closely with cross-functional teams, including designers, marketers, and product managers.                      </li>
+
                     </ul>
                   </div>
                 </div>
@@ -149,13 +149,13 @@ export default function Resume() {
                 <h2>Education & Certifications</h2>
                 <div className={styles.summaryDiv}>
                   <div style={{ maxWidth: "150px", minWidth: "150px" }}>
-                    <p id="topP">Full-Stack Web Development Certificate</p>
-                    <p id="topP">2022 - 2023</p>
+                    <p id="topP">Certified Full-Stack Web Developer</p>
+                    <p id="topP">2022-2023</p>
                   </div>
                   <div>
                     <p id="topP">Udemy</p>
                     <ul style={{ listStyleType: "disc" }}>
-                      <li>Front-End Web Development : HTML, CSS & JS.</li>
+                      <li>Front-End Web Development : HTML, CSS & JAVASCRIPT.</li>
                       <li>
                         Front-End Frameworks : JQuery, Bootstrap, TailwindCSS &
                         ReactJS.
@@ -208,6 +208,7 @@ export default function Resume() {
                       <li>HTML</li>
                       <li>CSS</li>
                       <li>JAVASCRIPT</li>
+                      <li>TYPESCRIPT</li>
                     </ul>
                   </div>
                   <div>
@@ -254,19 +255,20 @@ export default function Resume() {
                     priority
                   />
                   <Image
-                    src="/images/css.png"
-                    alt="css logo"
-                    height={50}
-                    width={50}
-                    priority
-                  />
-                  <Image
                     src="/images/js.png"
                     alt="javascript logo"
                     height={50}
                     width={50}
                     priority
                   />
+                                    <Image
+                    src="/images/ts.png"
+                    alt="typescript logo"
+                    height={50}
+                    width={50}
+                    priority
+                  />
+
                   <Image
                     src="/images/py.png"
                     alt="python logo"
@@ -281,6 +283,14 @@ export default function Resume() {
                     width={50}
                     priority
                   />
+                                    <Image
+                    src="/images/tw.png"
+                    alt="tailwind logo"
+                    height={50}
+                    width={50}
+                    priority
+                  />
+
                   <Image
                     src="/images/nodejs.png"
                     alt="nodejs logo"
@@ -289,15 +299,8 @@ export default function Resume() {
                     priority
                   />
                   <Image
-                    src="/images/vsc.png"
-                    alt="vsc logo"
-                    height={50}
-                    width={50}
-                    priority
-                  />
-                  <Image
-                    src="/images/git.png"
-                    alt="git logo"
+                    src="/images/mongo.png"
+                    alt="mongodb logo"
                     height={50}
                     width={50}
                     priority
@@ -314,6 +317,10 @@ export default function Resume() {
                     <li>JAVASCRIPT :</li>
                     <li>
                       <h4>Advanced</h4>
+                    </li>
+                    <li>TYPESCRIPT :</li>
+                    <li>
+                      <h4>Intermediate</h4>
                     </li>
                     <li>PYTHON :</li>
                     <li>
@@ -345,7 +352,7 @@ export default function Resume() {
                       target="_blank"
                       aria-label="+60-11-633-90-588"
                       rel="noreferrer noopener"
-                      style={{ textDecoration: "none" , padding : "0 5px"}}
+                      style={{ textDecoration: "none", padding: "0 5px" }}
                     >
                       <i
                         id="faIcon"
@@ -363,7 +370,7 @@ export default function Resume() {
                       target="_blank"
                       aria-label="vik@distrovik.com"
                       rel="noreferrer noopener"
-                      style={{ textDecoration: "none" , padding : "0 5px"}}
+                      style={{ textDecoration: "none", padding: "0 5px" }}
                     >
                       <i
                         id="faIcon"
@@ -381,7 +388,7 @@ export default function Resume() {
                       target="_blank"
                       aria-label="website link"
                       rel="noreferrer noopener"
-                      style={{ textDecoration: "none" , padding : "0 5px"}}
+                      style={{ textDecoration: "none", padding: "0 5px" }}
                     >
                       <i
                         id="faIcon"
