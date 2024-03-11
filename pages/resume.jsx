@@ -405,8 +405,8 @@ export default function Resume() {
         </div>
         <a
           className={styles.downloadDiv}
-          href="/fanvik_resume.pdf"
-          download="viky's resume.pdf"
+          href="/irfan_resume.pdf"
+          download="irfan's resume.pdf"
         >
           <i id="faIcon" className="fa-solid fa-download"></i>
         </a>
