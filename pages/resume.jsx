@@ -28,7 +28,7 @@ export default function Resume() {
                 </h1>
                 <ul>
                   <li>
-                    <p id="topP">Freelance Developer</p>
+                    <p id="topP">FullStack Web Developer</p>
                   </li>
 
                   <li>
@@ -65,8 +65,8 @@ export default function Resume() {
                 <h2>Work Experience</h2>
                 <div className={styles.summaryDiv}>
                   <div style={{ maxWidth: "150px", minWidth: "150px" }}>
-                    <p id="topP">Freelance Web Developer</p>
-                    <p id="topP">2023 - 2024</p>
+                    <p id="topP">Full-Stack Developer (Freelance)</p>
+                    <p id="topP">2024 - Present</p>
                   </div>
                   <div>
                     <p id="topP">Freelance and Open To Work</p>
@@ -88,8 +88,8 @@ export default function Resume() {
                         on technical needs.
                       </li>
                       <li>
-                        Stay plugged into emerging technologies and applying them
-                        into projects.
+                        Stay plugged into emerging technologies and applying
+                        them into projects.
                       </li>
                     </ul>
                   </div>
@@ -104,8 +104,8 @@ export default function Resume() {
                     <ul style={{ listStyleType: "disc" }}>
                       <li>
                         Organize and control stocks to ensure inventories are
-                        maintained at optimum level consistent with projected sale
-                        requirements.
+                        maintained at optimum level consistent with projected
+                        sale requirements.
                       </li>
                       <li>Weekly stocks arrangement to all branches.</li>
                       <li>
@@ -113,9 +113,9 @@ export default function Resume() {
                         Lazada, Shopee, Woocommerce and Shopify.
                       </li>
                       <li>
-                        Manage and update warehouse&apos;s backend database on a daily basis to
-                        ensure stock availability on E-Commerce sites & retail
-                        branches.
+                        Manage and update warehouse&apos;s backend database on a
+                        daily basis to ensure stock availability on E-Commerce
+                        sites & retail branches.
                       </li>
                     </ul>
                   </div>
@@ -148,26 +148,37 @@ export default function Resume() {
               <div>
                 <h2>Education & Certifications</h2>
                 <div className={styles.summaryDiv}>
-                  <div style={{ maxWidth: "150px", minWidth: "150px" }}>
-                    <p id="topP">Full-Stack Web Development Certificate</p>
-                    <p id="topP">2022 - 2023</p>
-                  </div>
-                  <div>
-                    <p id="topP">Udemy</p>
-                    <ul style={{ listStyleType: "disc" }}>
-                      <li>Front-End Web Development : HTML, CSS & JS.</li>
-                      <li>
-                        Front-End Frameworks : JQuery, Bootstrap, TailwindCSS &
-                        ReactJS.
-                      </li>
-                      <li>Back-End Web Development : NodeJS with ExpressJS.</li>
-                      <li>SQL & NOSQL Databases , API and Version Control.</li>
-                      <li>
-                        Authentication and Security - Handling Credentials &amp;
-                        Designing Secure Login.
-                      </li>
-                    </ul>
-                  </div>
+                  <a
+                    href="https://www.udemy.com/certificate/UC-aa48c13d-787e-4d91-b313-c7778721dd54/"
+                    target="_blank"
+                    aria-label="Certificate link"
+                    rel="noreferrer noopener"
+                  >
+                    <div style={{ maxWidth: "150px", minWidth: "150px" }}>
+                      <p id="topP">Certified <span style={{display:"inline-block"}}>Full-Stack</span> Web Developer</p>
+                      <p id="topP">2022 - 2023</p>
+                    </div>
+                  </a>
+                    <div>
+                      <p id="topP">Udemy</p>
+                      <ul style={{ listStyleType: "disc" }}>
+                        <li>Front-End Web Development : HTML, CSS & JS.</li>
+                        <li>
+                          Front-End Frameworks : JQuery, Bootstrap, TailwindCSS
+                          & ReactJS.
+                        </li>
+                        <li>
+                          Back-End Web Development : NodeJS with ExpressJS.
+                        </li>
+                        <li>
+                          SQL & NOSQL Databases , API and Version Control.
+                        </li>
+                        <li>
+                          Authentication and Security - Handling Credentials
+                          &amp; Designing Secure Login.
+                        </li>
+                      </ul>
+                    </div>
                 </div>
                 <div className={styles.summaryDiv}>
                   <div style={{ maxWidth: "150px", minWidth: "150px" }}>
@@ -345,7 +356,7 @@ export default function Resume() {
                       target="_blank"
                       aria-label="+60-11-633-90-588"
                       rel="noreferrer noopener"
-                      style={{ textDecoration: "none" , padding : "0 5px"}}
+                      style={{ textDecoration: "none", padding: "0 5px" }}
                     >
                       <i
                         id="faIcon"
@@ -363,7 +374,7 @@ export default function Resume() {
                       target="_blank"
                       aria-label="vik@distrovik.com"
                       rel="noreferrer noopener"
-                      style={{ textDecoration: "none" , padding : "0 5px"}}
+                      style={{ textDecoration: "none", padding: "0 5px" }}
                     >
                       <i
                         id="faIcon"
@@ -381,7 +392,7 @@ export default function Resume() {
                       target="_blank"
                       aria-label="website link"
                       rel="noreferrer noopener"
-                      style={{ textDecoration: "none" , padding : "0 5px"}}
+                      style={{ textDecoration: "none", padding: "0 5px" }}
                     >
                       <i
                         id="faIcon"
